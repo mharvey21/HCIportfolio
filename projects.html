@@ -1,1 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects · Michael Harvey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header role="banner">
+    <nav class="nav" aria-label="Primary">
+      <div><a href="index.html"><strong>Michael Harvey</strong></a></div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="container">
+      <h1>Projects</h1>
+      <div class="grid cols-2">
+        <article class="card">
+          <h2>Netflix Data Analysis</h2>
+          <p class="muted">Explored viewing trends using Python; visualized genres, ratings, and release years.</p>
+          <ul>
+            <li>Python (Pandas, Matplotlib)</li>
+            <li>Data cleaning & EDA</li>
+            <li>Insight visuals for audience preferences</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2>Portfolio Website</h2>
+          <p class="muted">A simple, accessible, responsive site. Focus on consistency, low cognitive load, and clear navigation.</p>
+          <ul>
+            <li>Semantic HTML & vanilla CSS</li>
+            <li>Keyboard/screen reader friendly</li>
+            <li>Deployed on GitHub Pages</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p class="muted">© <span id="y"></span> Michael Harvey</p>
+      <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+    </div>
+  </footer>
+</body>
+</html>
 
