@@ -1,1 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Harvey · Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header role="banner">
+    <nav class="nav" aria-label="Primary">
+      <div><a href="index.html" aria-current="page"><strong>Michael Harvey</strong></a></div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="container hero" aria-labelledby="home-heading">
+      <div>
+        <h1 id="home-heading">Computer Science Student · Data Enthusiast</h1>
+        <p class="muted">Welcome to my portfolio! I’m Michael Harvey — a Computer Science student at Kent State University with interests in data engineering, analytics, and software development.</p>
+        <p><a class="btn" href="projects.html">View My Work</a></p>
+      </div>
+
+      <div class="card">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Netflix Data Analysis — Python, Pandas, Matplotlib</li>
+          <li>Portfolio Website — HTML, CSS, Accessibility</li>
+          <li>CS Projects — String, Stack, and Queue ADTs</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p class="muted">© <span id="y"></span> Michael Harvey · Built for CS 32301 – Human Interface Computing</p>
+      <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+    </div>
+  </footer>
+</body>
+</html>
 
