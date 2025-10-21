@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Studies · Michael Harvey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header role="banner">
+    <nav class="nav" aria-label="Primary">
+      <div><a href="index.html"><strong>Michael Harvey</strong></a></div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="casestudies.html" aria-current="page">Case Studies</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="container">
+      <h1>Case Studies</h1>
+
+      <article class="card">
+        <h2>Netflix Data Analysis</h2>
+        <p class="muted">Goal → Process → Result</p>
+        <ul>
+          <li><strong>Goal:</strong> Identify genre and rating trends over time.</li>
+          <li><strong>Process:</strong> Cleaned Netflix CSV with Python/Pandas, visualized data using Matplotlib.</li>
+          <li><strong>Result:</strong> Revealed popular genres and viewer rating shifts across release years.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Portfolio Website</h2>
+        <p class="muted">Goal → Process → Result</p>
+        <ul>
+          <li><strong>Goal:</strong> Design a minimal, accessible portfolio for my Human Interface Computing course.</li>
+          <li><strong>Process:</strong> Built 5-page site using semantic HTML and CSS with a focus on consistency and usability.</li>
+          <li><strong>Result:</strong> Clean, responsive design with full keyboard accessibility and low cognitive load.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p class="muted">© <span id="y"></span> Michael Harvey</p>
+      <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+    </div>
+  </footer>
+</body>
+</html>
