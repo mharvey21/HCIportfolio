@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Michael Harvey · Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+  /* Home-only header tweaks */
+  body.home header{ padding:60px 0 36px; }              
+  body.home .nav{ gap:24px; }
+  body.home .nav strong{ font-size:1.8rem; }            
+  body.home .header-photo{
+    width:320px; height:auto; border-radius:12px;
+    display:block; margin:0 auto 8px;
+  }
+  @media (max-width:720px){
+    body.home header{ padding:28px 0 16px; }
+    body.home .header-photo{ width:200px; }
+  }
+</style>
+
 </head>
 <body class="home">
   <a class="skip-link" href="#content">Skip to content</a>
@@ -13,7 +28,7 @@
     <nav class="nav" aria-label="Primary">
       <div><a href="index.html" aria-current="page"><strong>Michael Harvey</strong></a></div>
       <div>
-        <img src="indexpage.jpg" alt="Michael Harvey portrait" style="width:300px;border-radius:12px;display:block;margin:0 auto;">
+        <img src="indexpage.jpg" alt="Michael Harvey portrait" class="header-photo">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
